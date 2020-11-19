@@ -47,6 +47,56 @@ namespace AssignmentMid
             c3.ShowInfo();
 
             Console.WriteLine("-------------------------sections end----------------------------");
+            Faculty f1 = new Faculty("Dr. Mahbubul Sayed", "18-254562-2");
+            f1.AddCourse(c1, c2, c4,c5);
+            f1.addCourseLoad(c1, s1);
+          
+            f1.addCourseLoad(c2, s2);
+            
+            f1.addCourseLoad(c4, s3);
+            f1.addCourseLoad(c5, s5);
+
+           
+
+            f1.ShowInfo();
+            f1.addCourseLoad(c5, s4);
+            f1.ShowInfo();
+
+            Console.WriteLine("********************");
+
+            Faculty f2 = new Faculty("Dr Ashraf", "19-656232-2");
+            f2.AddCourse(c1, c2);
+            f2.addCourseLoad(c1, s1);
+            f2.addCourseLoad(c2, s3);
+            f2.ShowInfo();
+
+            Faculty f3 = new Faculty("Abijit Bhowmik", "16-656232-2");
+            f3.AddCourse(c4, c5, c6);
+            f3.addCourseLoad(c4, s1);
+            f3.addCourseLoad(c5, s4);
+            f3.addCourseLoad(c6, s3);
+            f3.ShowInfo();
+            Console.WriteLine("--------------section and faculty info from course object----------------- ");
+            c1.Faculty = f1;
+            c1.Faculty.ShowInfo();
+            c1.Faculty = f2;
+            c1.Faculty.ShowInfo();
+            Console.WriteLine("---------------");
+            c2.Section = s1;
+            c2.Section.ShowInfo();
+            c2.Section = s2;
+            c2.Section.ShowInfo();
+            c2.Section = s3;
+            c2.Section.ShowInfo();
+
+            Console.WriteLine("---------------****************-***---------------");
+            Teacher t1 = new Teacher("Masum Billah", "18-3656-2");
+            t1.section = s5;
+            t1.section.ShowInfo();
+
+
+
+
 
 
 

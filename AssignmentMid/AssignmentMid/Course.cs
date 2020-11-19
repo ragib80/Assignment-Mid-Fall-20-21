@@ -45,6 +45,20 @@ namespace AssignmentMid
             get { return numberOfSection; }
             set { numberOfSection = value; }
         }
+        private Section section;
+
+        public Section Section
+        {
+            get { return section; }
+            set { section = value; }
+        }
+        private Faculty faculty;
+
+        public Faculty Faculty
+        {
+            get { return faculty; }
+            set { faculty = value; }
+        }
 
 
         public Course()

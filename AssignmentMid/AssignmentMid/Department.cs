@@ -59,13 +59,7 @@ namespace AssignmentMid
                 }
             }
 
-            /*public void ShowAllCourses()
-            {
-                for (int i = 0; i < CourseCount; i++)
-                {
-                    courses[i].ShowInfo();
-                }
-            }*/
+            
 
         }
        

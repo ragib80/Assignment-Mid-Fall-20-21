@@ -23,17 +23,14 @@ namespace AssignmentMid
             set { courselist = value; }
         }
 
-
-
-        public Section() {
-            
+        public Section()
+        {
             
         }
         public Section(string sectionName)
         {
             this.sectionName = sectionName;
-            
-
+         
         }
         public void ShowInfo()
         {
