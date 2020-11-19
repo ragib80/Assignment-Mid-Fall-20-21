@@ -1,0 +1,13 @@
+G:\Ragib\8 semester\Mid Assignment\AssignmentMid\AssignmentMid\bin\Debug\netcoreapp3.1\AssignmentMid.exe
+G:\Ragib\8 semester\Mid Assignment\AssignmentMid\AssignmentMid\bin\Debug\netcoreapp3.1\AssignmentMid.deps.json
+G:\Ragib\8 semester\Mid Assignment\AssignmentMid\AssignmentMid\bin\Debug\netcoreapp3.1\AssignmentMid.runtimeconfig.json
+G:\Ragib\8 semester\Mid Assignment\AssignmentMid\AssignmentMid\bin\Debug\netcoreapp3.1\AssignmentMid.runtimeconfig.dev.json
+G:\Ragib\8 semester\Mid Assignment\AssignmentMid\AssignmentMid\bin\Debug\netcoreapp3.1\AssignmentMid.dll
+G:\Ragib\8 semester\Mid Assignment\AssignmentMid\AssignmentMid\bin\Debug\netcoreapp3.1\AssignmentMid.pdb
+G:\Ragib\8 semester\Mid Assignment\AssignmentMid\AssignmentMid\obj\Debug\netcoreapp3.1\AssignmentMid.csprojAssemblyReference.cache
+G:\Ragib\8 semester\Mid Assignment\AssignmentMid\AssignmentMid\obj\Debug\netcoreapp3.1\AssignmentMid.AssemblyInfoInputs.cache
+G:\Ragib\8 semester\Mid Assignment\AssignmentMid\AssignmentMid\obj\Debug\netcoreapp3.1\AssignmentMid.AssemblyInfo.cs
+G:\Ragib\8 semester\Mid Assignment\AssignmentMid\AssignmentMid\obj\Debug\netcoreapp3.1\AssignmentMid.csproj.CoreCompileInputs.cache
+G:\Ragib\8 semester\Mid Assignment\AssignmentMid\AssignmentMid\obj\Debug\netcoreapp3.1\AssignmentMid.dll
+G:\Ragib\8 semester\Mid Assignment\AssignmentMid\AssignmentMid\obj\Debug\netcoreapp3.1\AssignmentMid.pdb
+G:\Ragib\8 semester\Mid Assignment\AssignmentMid\AssignmentMid\obj\Debug\netcoreapp3.1\AssignmentMid.genruntimeconfig.cache
