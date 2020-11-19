@@ -18,12 +18,18 @@ namespace AssignmentMid
             Course c5 = new Course("OOAD", "CSE 3202", 3, 5);
             Course c6 = new Course("AI", "CSE 5001", 3, 5);
             Course c7= new Course("Accounting", "BBA 2001", 3, 3);
+            Course c8 = new Course("DLC", "EEE 31100", 4, 6);
+            Course c9 = new Course("BANGLADESH STUDIES", "FAST 11001",  3, 3);
 
             d1.AddCourse(c1, c2, c3, c4, c5, c6);
             d4.AddCourse(c7);
+            d2.AddCourse(c8);
+            d3.AddCourse(c9);
 
             d1.ShowInfo();
             d4.ShowInfo();
+            d2.ShowInfo();
+            d3.ShowInfo();
 
             Section s1 = new Section("Section i");
             Section s2 = new Section("Section j");
@@ -45,6 +51,26 @@ namespace AssignmentMid
             c3.AddScetion(s4,s5,s1);
             c3.ShowAllTheSections();
             c3.ShowInfo();
+
+            c4.AddScetion(s3, s5);
+            c4.ShowAllTheSections();
+            c4.ShowInfo();
+
+            c5.AddScetion(s1, s2,s3,s4);
+            c5.ShowAllTheSections();
+            c5.ShowInfo();
+
+            c6.AddScetion(s5);
+            c6.ShowAllTheSections();
+            c6.ShowInfo();
+
+            c7.AddScetion( s2, s3);
+            c7.ShowAllTheSections();
+            c7.ShowInfo();
+
+
+
+
 
             Console.WriteLine("-------------------------sections end----------------------------");
             Faculty f1 = new Faculty("Dr. Mahbubul Sayed", "18-254562-2");
@@ -76,12 +102,12 @@ namespace AssignmentMid
             f3.addCourseLoad(c5, s4);
             f3.addCourseLoad(c6, s3);
             f3.ShowInfo();
-            Console.WriteLine("--------------section and faculty info from course object----------------- ");
+            Console.WriteLine("--------------faculty info from course object----------------- ");
             c1.Faculty = f1;
             c1.Faculty.ShowInfo();
             c1.Faculty = f2;
             c1.Faculty.ShowInfo();
-            Console.WriteLine("---------------");
+            Console.WriteLine("--------------------section ainfo from course object--------------- ");
             c2.Section = s1;
             c2.Section.ShowInfo();
             c2.Section = s2;
@@ -89,10 +115,7 @@ namespace AssignmentMid
             c2.Section = s3;
             c2.Section.ShowInfo();
 
-            Console.WriteLine("---------------****************-***---------------");
-            Teacher t1 = new Teacher("Masum Billah", "18-3656-2");
-            t1.section = s5;
-            t1.section.ShowInfo();
+            
 
 
 

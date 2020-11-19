@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AssignmentMid
 {
-    class Faculty:Teacher
+    class Faculty
     {
         private string facultyName;
 
